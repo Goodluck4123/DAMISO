@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(215, 225, 215);
+}
+
+header {
+    background-color: hsl(120, 90%, 12%);
+    color: aliceblue;
+    border-radius: 5px;
+}
+h2, h3 {
+    color: hsla(120, 100%, 25%, 0.817);
+}
+.mainProductPage p {
+    color: hsla(120, 100%, 25%, 0.817);
+    margin-top: 0px;
+}
+
+.mainProductPage h2 {
+    margin-bottom: 5px;
+}
+
+.searches {
+    display: flex;
+    gap: 10px;
+    max-width: fit-content;
+}
+.searches p {
+    font-size: 1.5rem;
+    background-color: hsla(0, 0%, 93%, 0.959);
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.searches p:hover {
+    background-color: hsla(120, 100%, 25%, 0.817);
+}
+
+.productCards {
+    border-radius: 10px;
+    padding-top: 5px;
+    border: 1px solid hsla(120, 100%, 25%, 0.817);
+    margin-top: 20px;
+    background-color: hsla(120, 100%, 25%, 0.817);
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+.productCards img {
+    width: 800px;
+    margin-bottom: 20px;
+    height: 300px;
+    max-width: 400px;
+
+}
+.productCards p {
+   color: hsla(0, 0%, 93%, 0.959);
+   font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .productCards {
+    border-radius: 10px;
+    padding-top: 5px;
+    border: 1px solid hsla(120, 100%, 25%, 0.817);
+    margin-top: 20px;
+    background-color: hsla(120, 100%, 25%, 0.817);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.productCards img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 500px;
+
+
+}
+}
+footer {
+    background-color: hsla(0, 0%, 93%, 0.959);
+}
+footer > p {
+    margin-top: 15px;
+    color: hsla(120, 100%, 25%, 0.817);
+    text-align: center;
+    font-size: 1.2rem;
+}
